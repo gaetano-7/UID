@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="550.0" prefWidth="1300.0" stylesheets="@css/styleChampions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerMarcatoriChampions">
+   <children>
+      <TableView fx:id="marcatori" layoutX="50.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" stylesheets="@css/styleChampions.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
+         <columns>
+            <TableColumn fx:id="colonnaPos" minWidth="50.0" prefWidth="150.0" text="POS." />
+            <TableColumn fx:id="colonnaGiocatore" minWidth="340.0" prefWidth="400.0" text="GIOCATORE" />
+            <TableColumn fx:id="colonnaSquadra" minWidth="110.0" prefWidth="205.0" text="SQUADRA" />
+            <TableColumn fx:id="colonnaGoals" minWidth="110.0" prefWidth="205.0" text="GOALS" />
+            <TableColumn fx:id="colonnaAssists" minWidth="100.0" prefWidth="205.0" text="ASSISTS" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

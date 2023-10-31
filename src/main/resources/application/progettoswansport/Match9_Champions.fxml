@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="750.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Pane prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #091442; -fx-background-radius: 30;">
+               <children>
+                  <ImageView fx:id="squadraCasa" fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/calcio/champions/chelsea_logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="334.0" layoutY="1.0" text="2° TURNO" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="squadraOspite" fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/calcio/champions/real_logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="risultato" alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="0 - 2" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data" layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="18.04.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="261.0" layoutY="42.0" text="RISULTATO 1° TURNO : 0 - 2  TOTALE: 0 - 4" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane prefHeight="251.0" prefWidth="750.0" style="-fx-background-color: #091442; -fx-background-radius: 30;">
+               <children>
+                  <Label layoutX="10.0" layoutY="6.0" prefHeight="15.0" prefWidth="730.0" style="-fx-background-color: grey; -fx-background-radius: 50; -fx-font-weight: bold;" text="  1° TEMPO" textFill="WHITE" />
+                  <Label layoutX="10.0" layoutY="117.0" prefHeight="15.0" prefWidth="730.0" style="-fx-background-color: grey; -fx-background-radius: 50; -fx-font-weight: bold;" text=" 2° TEMPO" textFill="WHITE" />
+                  <Label fx:id="r4o" layoutX="652.0" layoutY="140.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="0 - 1" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m4o" layoutX="495.0" layoutY="142.0" prefHeight="17.0" prefWidth="150.0" style="-fx-font-weight: bold;" text="(Vinicius Junior) Rodrygo" textFill="WHITE" />
+                  <Label fx:id="time4o" layoutX="718.0" layoutY="142.0" style="-fx-font-weight: bold;" text="58'" textFill="WHITE" />
+                  <Label fx:id="time4o1" layoutX="718.0" layoutY="179.0" style="-fx-font-weight: bold;" text="80'" textFill="WHITE" />
+                  <Label fx:id="r4o1" layoutX="652.0" layoutY="177.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="0 - 2" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m4o1" layoutX="516.0" layoutY="179.0" prefHeight="17.0" prefWidth="124.0" style="-fx-font-weight: bold;" text="(Valverde F.) Rodrygo" textFill="WHITE" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets left="230.0" right="210.0" />
+   </padding>
+</AnchorPane>

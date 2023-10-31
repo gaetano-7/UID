@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerTabRoland">
+   <children>
+      <AnchorPane fx:id="tabRolandPane" layoutX="50.0" prefHeight="420.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(to bottom,  #ff760d,#612d05); -fx-background-radius: 30;" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Line endX="225.78573608398438" layoutX="-29.0" layoutY="46.0" startX="142.49285888671875" startY="-0.4142192602157593" AnchorPane.bottomAnchor="373.2928932905197" AnchorPane.leftAnchor="112.78575134277344" AnchorPane.rightAnchor="552.5071563720703" AnchorPane.topAnchor="44.878673911094666" />
+            <Line endX="225.78573608398438" layoutX="-30.0" layoutY="87.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="271.0" layoutY="66.0" startX="-74.50715637207031" startY="20.878677368164062" />
+            <Line endX="187.1999969482422" endY="-0.4142303466796875" layoutX="56.0" layoutY="67.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <VBox layoutX="14.0" layoutY="5.0" prefHeight="410.0" prefWidth="100.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Q/F">
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Label fx:id="djoko_q" onMouseClicked="#press_djoko_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Djokovic 1" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Serbia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nadal_q" onMouseClicked="#press_nadal_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Nadal     3" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Spagna.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="zverev_q" onMouseClicked="#press_zverev_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Zverev    3" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Germania.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="alcaraz_q" onMouseClicked="#press_alcaraz_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Alcaraz    1" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Spagna.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="ruud_q" onMouseClicked="#press_ruud_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Ruud      3" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Norvegia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="rune_q" onMouseClicked="#press_rune_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Rune      1" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Danimarca.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="rublev_q" onMouseClicked="#press_rublev_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Rublev   2" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Russia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="cilic_q" onMouseClicked="#press_cilic_q" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Cilic       3" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Croazia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Line endX="225.78573608398438" layoutX="-28.0" layoutY="147.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="225.78573608398438" layoutX="-29.0" layoutY="187.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="272.0" layoutY="166.0" startX="-74.50715637207031" startY="20.878677368164062" />
+            <VBox layoutX="279.0" layoutY="70.0" prefHeight="84.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="nadal_s" onMouseClicked="#press_nadal_s" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Nadal     1" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Spagna.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="zverev_s" onMouseClicked="#press_zverev_s" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Zverev    0" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Germania.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Line endX="198.70709228515625" endY="-9.707107543945312" layoutX="45.0" layoutY="76.0" startX="198.70709228515625" startY="17.400009155273438" />
+            <Line endX="204.0" endY="-0.4142303466796875" layoutX="76.0" layoutY="94.0" startX="168.7999725341797" startY="-0.4142303466796875" />
+            <Line endX="187.1999969482422" endY="-0.4142303466796875" layoutX="56.0" layoutY="162.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="198.70709228515625" endY="-9.707107543945312" layoutX="45.0" layoutY="144.0" startX="198.70709228515625" startY="17.400009155273438" />
+            <Line endX="203.20001220703125" endY="-0.4142303466796875" layoutX="76.0" layoutY="134.0" startX="168.7999725341797" startY="-0.4142303466796875" />
+            <Line endX="225.78573608398438" layoutX="-29.0" layoutY="244.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="225.78573608398438" layoutX="-29.0" layoutY="283.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="272.0" layoutY="262.0" startX="-74.50715637207031" startY="20.878677368164062" />
+            <Line endX="187.1999969482422" endY="-0.4142303466796875" layoutX="56.0" layoutY="263.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="198.70709228515625" endY="-9.707107543945312" layoutX="45.0" layoutY="272.0" startX="198.70709228515625" startY="17.400009155273438" />
+            <Line endX="225.78573608398438" layoutX="-29.0" layoutY="345.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="225.78573608398438" layoutX="-29.0" layoutY="384.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="272.0" layoutY="363.0" startX="-74.50715637207031" startY="20.878677368164062" />
+            <Line endX="187.1999969482422" endY="-0.4142303466796875" layoutX="56.0" layoutY="363.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="198.70709228515625" endY="-9.707107543945312" layoutX="45.0" layoutY="345.0" startX="198.70709228515625" startY="17.400009155273438" />
+            <VBox layoutX="279.0" layoutY="276.0" prefHeight="84.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="ruud_s" onMouseClicked="#press_ruud_s" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Ruud      3" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Norvegia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="cilic_s" onMouseClicked="#press_cilic_s" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Cilic       1" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Croazia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Text fill="WHITE" layoutX="321.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S/F" />
+            <Line endX="181.4000244140625" endY="-0.4142303466796875" layoutX="237.0" layoutY="93.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="180.60003662109375" endY="-0.4142303466796875" layoutX="237.0" layoutY="131.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="493.0" layoutY="112.0" startX="-74.50714111328125" startY="18.878677368164062" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="493.0" layoutY="313.0" startX="-74.50715637207031" startY="20.878677368164062" />
+            <Line endX="165.00006103515625" endY="-0.4142303466796875" layoutX="471.0" layoutY="210.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <VBox layoutX="480.0" layoutY="168.0" prefHeight="84.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="nadal_f" onMouseClicked="#press_nadal_f" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Nadal     3" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Spagna.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="ruud_f" onMouseClicked="#press_ruud_f" prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Ruud      0" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Norvegia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Text fill="WHITE" layoutX="527.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="F" />
+            <Line endX="204.0" endY="-0.4142303466796875" layoutX="75.0" layoutY="290.0" startX="168.7999725341797" startY="-0.4142303466796875" />
+            <Line endX="204.0" endY="-0.4142303466796875" layoutX="76.0" layoutY="335.0" startX="168.7999725341797" startY="-0.4142303466796875" />
+            <VBox layoutX="636.0" layoutY="189.0" prefHeight="41.0" prefWidth="100.0">
+               <children>
+                  <Label prefHeight="37.0" prefWidth="113.0" style="-fx-background-radius: 30; -fx-background-color: #074f2c;" text="Nadal" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Spagna.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+               </children>
+            </VBox>
+            <Line endX="174.79998779296875" endY="-0.4142303466796875" layoutX="438.0" layoutY="189.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="174.79998779296875" endY="-0.4142303466796875" layoutX="438.0" layoutY="230.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="-74.39997863769531" endY="-18.599990844726562" layoutX="687.0" layoutY="209.0" startX="-74.39996337890625" startY="19.878677368164062" />
+            <Line endX="181.4000244140625" endY="-0.4142303466796875" layoutX="237.0" layoutY="294.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="181.7857666015625" endY="-0.41424560546875" layoutX="237.0" layoutY="335.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="170.4000244140625" endY="-0.4142303466796875" layoutX="276.0" layoutY="112.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="198.70709228515625" endY="-9.707107543945312" layoutX="248.0" layoutY="121.0" startX="198.70709228515625" startY="63.00001525878906" />
+            <Line endX="170.4000244140625" endY="-0.4142303466796875" layoutX="280.0" layoutY="306.0" startX="139.7857666015625" startY="-0.41424560546875" />
+            <Line endX="199.10711669921875" endY="-11.400009155273438" layoutX="252.0" layoutY="241.0" startX="199.10711669921875" startY="64.878662109375" />
+            <Line endX="176.0" endY="-0.4142303466796875" layoutX="304.0" layoutY="186.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Line endX="170.0" endY="-0.4142303466796875" layoutX="310.0" layoutY="230.0" startX="142.49285888671875" startY="-0.4142192602157593" />
+            <Text fill="WHITE" layoutX="675.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

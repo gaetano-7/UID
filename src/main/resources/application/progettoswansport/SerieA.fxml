@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to bottom,#0097e8,#000861);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerSerieA">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="174.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="30.0">
+               <children>
+                  <ImageView fx:id="logoSerieA" fitHeight="143.0" fitWidth="139.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/calcio/seriea/seriea.png" />
+                     </image>
+                  </ImageView>
+                  <HBox layoutX="166.0" layoutY="130.0" prefHeight="44.0" prefWidth="418.0">
+                     <children>
+                        <JFXButton fx:id="classifica" onMouseClicked="#clickClassifica" prefHeight="40.0" prefWidth="140.0" text="CLASSIFICA" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="risultati" onMouseClicked="#clickRisultati" prefHeight="40.0" prefWidth="140.0" text="RISULTATI" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="marcatori" onMouseClicked="#clickMarcatori" prefHeight="40.0" prefWidth="140.0" text="MARCATORI" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <Label layoutX="159.0" layoutY="23.0" prefHeight="44.0" prefWidth="154.0" text="Serie A 2022/23" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane fx:id="APane" prefHeight="500.0" prefWidth="900.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <effect>
+      <InnerShadow>
+         <color>
+            <Color red="0.0235294122248888" green="0.2823529541492462" blue="0.23529411852359772" />
+         </color>
+      </InnerShadow>
+   </effect>
+</BorderPane>

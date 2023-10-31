@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1300.0" stylesheets="@css/styleNba.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerClassificaOvest">
+   <children>
+      <TableView fx:id="classificaNbaOvest" layoutX="49.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="750.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="30.0">
+         <columns>
+            <TableColumn fx:id="colonnaPos" minWidth="50.0" prefWidth="120.0" text="Pos." />
+            <TableColumn fx:id="colonnaSquadra" editable="false" minWidth="75.0" prefWidth="300.0" sortable="false" text="SQUADRA" />
+            <TableColumn fx:id="colonnaPG" editable="false" minWidth="70.0" prefWidth="150.0" sortable="false" text="PG" />
+            <TableColumn fx:id="colonnaV" editable="false" minWidth="70.0" prefWidth="150.0" sortable="false" text="V" />
+            <TableColumn fx:id="colonnaP" editable="false" minWidth="70.0" prefWidth="150.0" sortable="false" text="P" />
+            <TableColumn fx:id="colonnaPNTF" editable="false" minWidth="70.0" prefWidth="150.0" sortable="false" text="PNTF" />
+            <TableColumn fx:id="colonnaPNTS" editable="false" minWidth="70.0" prefWidth="150.0" sortable="false" text="PNTS" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

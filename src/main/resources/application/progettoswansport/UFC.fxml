@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="660.0" prefWidth="1150.0" style="-fx-background-color: transparent;" stylesheets="@css/styleMMA.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerUFC">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="660.0" prefWidth="1300.0" style="-fx-background-color: linear-gradient(to bottom,#0a8f8a,#074c69);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane fx:id="mmaAn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="900.0" prefWidth="1300.0" style="-fx-background-image: linear-gradient(to bottom,#F2FF00,#000000);">
+               <children>
+                  <HBox alignment="TOP_CENTER" layoutX="15.0" layoutY="150.0" prefHeight="131.0" prefWidth="1150.0" spacing="90.0">
+                     <children>
+                        <ImageView fx:id="ImgF1" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#khabib_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/khabibMcGregor.png" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </ImageView>
+                        <ImageView fx:id="ImgF2" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#holloway_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/hollowayAllen.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </ImageView>
+                        <ImageView fx:id="ImgF3" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#miocic_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/miocicNgannou.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" layoutX="15.0" layoutY="335.0" prefHeight="131.0" prefWidth="1150.0" spacing="90.0">
+                     <children>
+                        <ImageView fx:id="ImgF4" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#adesanya_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/adesanyaPereira.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                        <ImageView fx:id="ImgF5" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#chimaev_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/chimaevHolland.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                        <ImageView fx:id="ImgF6" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#lones_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/jonesGane.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" layoutX="15.0" layoutY="535.0" prefHeight="131.0" prefWidth="1150.0" spacing="90.0">
+                     <children>
+                        <ImageView fx:id="ImgF7" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#makhachev_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/makhachevVolkanovski.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                        <ImageView fx:id="ImgF8" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#aldo_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/McgregorAldo.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                        <ImageView fx:id="ImgF9" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#diaz_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/NatediazFerguson.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" layoutX="15.0" layoutY="735.0" prefHeight="131.0" prefWidth="1150.0" spacing="90.0">
+                     <children>
+                        <ImageView fx:id="ImgF10" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#silva_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/silvaHall.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                        <ImageView fx:id="ImgF11" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#oliveira_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/oliveiraMakhachev.jpeg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                        <ImageView fx:id="ImgF12" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#poirier_click" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/mma/PoirerMcGregor2.jpeg" />
+                           </image>
+                           <effect>
+                              <DropShadow />
+                           </effect></ImageView>
+                     </children>
+                  </HBox>
+                  <Label layoutX="25.0" layoutY="21.0" prefHeight="53.0" prefWidth="86.0" text="UFC" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label layoutX="174.0" layoutY="67.0" prefHeight="40.0" prefWidth="529.0" text="SELEZIONA L'INCONTRO DA VEDERE" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

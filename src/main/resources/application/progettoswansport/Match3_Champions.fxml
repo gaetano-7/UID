@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="750.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Pane prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #091442; -fx-background-radius: 30;">
+               <children>
+                  <ImageView fx:id="squadraCasa" fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/calcio/champions/man_city_logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="334.0" layoutY="1.0" text="2° TURNO" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="squadraOspite" fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/calcio/champions/rb_lipsia_logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="risultato" alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="7 - 0" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data" layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="14.03.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="261.0" layoutY="42.0" text="RISULTATO 1° TURNO : 1 - 1  TOTALE: 8 - 1" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane prefHeight="251.0" prefWidth="750.0" style="-fx-background-color: #091442; -fx-background-radius: 30;">
+               <children>
+                  <Label layoutX="10.0" layoutY="6.0" prefHeight="15.0" prefWidth="730.0" style="-fx-background-color: grey; -fx-background-radius: 50; -fx-font-weight: bold;" text="  1° TEMPO" textFill="WHITE" />
+                  <Label layoutX="10.0" layoutY="117.0" prefHeight="15.0" prefWidth="730.0" style="-fx-background-color: grey; -fx-background-radius: 50; -fx-font-weight: bold;" text=" 2° TEMPO" textFill="WHITE" />
+                  <Label fx:id="r4o" layoutX="41.0" layoutY="28.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="0 - 1" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m4o" layoutX="111.0" layoutY="30.0" prefHeight="17.0" prefWidth="120.0" style="-fx-font-weight: bold;" text="Haaland E. (Rigore)" textFill="WHITE" />
+                  <Label fx:id="time4o" layoutX="14.0" layoutY="30.0" style="-fx-font-weight: bold;" text="46'" textFill="WHITE" />
+                  <Label fx:id="m5o" layoutX="111.0" layoutY="57.0" prefHeight="17.0" prefWidth="150.0" style="-fx-font-weight: bold;" text="Haaland E. (De Bruyne K.)" textFill="WHITE" />
+                  <Label layoutX="41.0" layoutY="55.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="2 - 0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="r5o" fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="time5o" layoutX="14.0" layoutY="57.0" style="-fx-font-weight: bold;" text="79'" textFill="WHITE" />
+                  <Label fx:id="r6o" layoutX="41.0" layoutY="85.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="3 - 0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m6o" layoutX="111.0" layoutY="87.0" prefHeight="17.0" prefWidth="150.0" style="-fx-font-weight: bold;" text="Haaland E. (Dias R.)" textFill="WHITE" />
+                  <Label fx:id="time6o" layoutX="14.0" layoutY="87.0" style="-fx-font-weight: bold;" text="83'" textFill="WHITE" />
+                  <Label fx:id="time5c" layoutX="14.0" layoutY="142.0" style="-fx-font-weight: bold;" text="71'" textFill="WHITE" />
+                  <Label fx:id="r5c" layoutX="41.0" layoutY="140.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="4 - 0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m5c" layoutX="111.0" layoutY="142.0" prefHeight="17.0" prefWidth="143.0" style="-fx-font-weight: bold;" text="Gundogan I. (Grealish J.)" textFill="WHITE" />
+                  <Label fx:id="time5c1" layoutX="14.0" layoutY="170.0" style="-fx-font-weight: bold;" text="71'" textFill="WHITE" />
+                  <Label fx:id="r5c1" layoutX="41.0" layoutY="168.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="5 - 0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m5c1" layoutX="111.0" layoutY="170.0" prefHeight="17.0" prefWidth="134.0" style="-fx-font-weight: bold;" text="Haaland E. (Akanji M.)" textFill="WHITE" />
+                  <Label fx:id="time5c11" layoutX="14.0" layoutY="197.0" style="-fx-font-weight: bold;" text="71'" textFill="WHITE" />
+                  <Label fx:id="r5c11" layoutX="41.0" layoutY="195.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="6 - 0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m5c11" layoutX="111.0" layoutY="197.0" prefHeight="17.0" prefWidth="134.0" style="-fx-font-weight: bold;" text="Haaland E. (Akanji M.)" textFill="WHITE" />
+                  <Label fx:id="time5c111" layoutX="14.0" layoutY="228.0" style="-fx-font-weight: bold;" text="71'" textFill="WHITE" />
+                  <Label fx:id="r5c111" layoutX="41.0" layoutY="226.0" prefHeight="21.0" prefWidth="58.0" style="-fx-background-color: grey; -fx-background-radius: 30;" text="7 - 0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="m5c1111" layoutX="111.0" layoutY="228.0" prefHeight="17.0" prefWidth="150.0" style="-fx-font-weight: bold;" text="De Bruyne K. (Mahrez R.)" textFill="WHITE" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets left="230.0" right="210.0" />
+   </padding>
+</AnchorPane>

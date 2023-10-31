@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ProfiloAn" prefHeight="700.0" prefWidth="1150.0" stylesheets="@css/styleMMA.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerProfilo">
+   <children>
+      <ImageView fx:id="imgFighter" fitHeight="410.0" fitWidth="392.0" layoutX="550.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+         </image>
+      </ImageView>
+      <Label fx:id="lblNome" alignment="CENTER" layoutX="380.0" layoutY="54.0" text="Connor &quot;the notorius&quot; Mcgregor" textFill="RED">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="260.0" prefHeight="21.0" prefWidth="106.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Altezza:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="180.0" prefHeight="21.0" prefWidth="106.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Record:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="340.0" prefHeight="21.0" prefWidth="106.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Categoria:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="380.0" prefHeight="21.0" prefWidth="106.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Vttorie Per KO:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="220.0" prefHeight="21.0" prefWidth="106.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Peso:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="300.0" prefHeight="21.0" prefWidth="106.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Nazionalità:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPeso" alignment="CENTER" layoutX="350.0" layoutY="220.0" prefHeight="21.0" prefWidth="120.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Record:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRecord" alignment="CENTER" layoutX="350.0" layoutY="180.0" prefHeight="21.0" prefWidth="120.0" style="-fx-background-color: Black; -fx-background-radius: 10;" text="Record:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAltezza" alignment="CENTER" layoutX="350.0" layoutY="260.0" prefHeight="21.0" prefWidth="120.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Record:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNaz" alignment="CENTER" layoutX="350.0" layoutY="301.0" prefHeight="21.0" prefWidth="120.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Record:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCat" alignment="CENTER" layoutX="350.0" layoutY="340.0" prefHeight="21.0" prefWidth="120.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Record:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblWinKO" alignment="CENTER" layoutX="350.0" layoutY="380.0" prefHeight="21.0" prefWidth="120.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Record:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="68.0" fitWidth="91.0" layoutX="14.0" layoutY="18.0" onMouseClicked="#backFight" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icone/FRECCIA2%20-Copia.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerPilotiMotoGP">
+   <children>
+      <TableView fx:id="tabPilotiMotoGp" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="15.0">
+        <columns>
+          <TableColumn fx:id="colonnaPilota" minWidth="150.0" prefWidth="370.0" text="PILOTA" />
+          <TableColumn fx:id="colonnaE" minWidth="70.0" prefWidth="125.0" text="ETA'" />
+            <TableColumn fx:id="colonnaN" minWidth="50.0" prefWidth="125.0" text="NAZIONE" />
+            <TableColumn fx:id="colonnaT" minWidth="125.0" prefWidth="370.0" text="TEAM" />
+            <TableColumn fx:id="colonnaG" minWidth="100.0" prefWidth="200.0" text="GARE VINTE" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

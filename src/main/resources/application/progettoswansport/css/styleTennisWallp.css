@@ -1,0 +1,11 @@
+#tabRolandPane{
+    -fx-background-image:url('/application/progettoswansport/images/tennis/Sfondi/Rol_Nadal.jpeg');
+    -fx-shape: "M0 5 L0 95 Q0 100 5 100 L95 100 Q100 100 100 95 L100 5 Q100 0 95 0 L5 0 Q0 0 0 5Z";
+    -fx-background-size: cover;
+}
+
+#tabWimbPane{
+    -fx-background-image:url('/application/progettoswansport/images/tennis/Sfondi/Wim_Djokovic.jpeg');
+    -fx-background-size: cover;
+    -fx-shape: "M0 5 L0 95 Q0 100 5 100 L95 100 Q100 100 100 95 L100 5 Q100 0 95 0 L5 0 Q0 0 0 5Z";
+}

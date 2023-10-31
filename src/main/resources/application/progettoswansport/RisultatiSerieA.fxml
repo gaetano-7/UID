@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="1300.0" stylesheets="@css/styleRisultatiSerieA.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerRisultatiSerieA">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="400.0" prefWidth="1000.0" style="-fx-border-color: transparent; -fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0">
+         <content>
+            <VBox fx:id="partite" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="1200.0" spacing="20.0">
+               <children>
+                  <Pane fx:id="pane1" onMouseClicked="#match1_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/sassuolo_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/fiorentina_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="1 - 3" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="02.06.2023 20:45" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane2" onMouseClicked="#match2_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/torino_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/inter_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="0 - 1" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="03.06.2023 18:30" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane3" onMouseClicked="#match3_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/empoli_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/lazio_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="0 - 2" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="03.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane4" onMouseClicked="#match4_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/cremonese_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/salernitana_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="2 - 0" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="03.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane5" onMouseClicked="#match5_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/napoli_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/sampdoria_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="2 - 0" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="04.06.2023 18:30" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane6" onMouseClicked="#match6_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/udinese_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/juventus_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="0 - 1" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="04.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane7" onMouseClicked="#match7_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/roma_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/spezia_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="2 - 1" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="04.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane8" onMouseClicked="#match8_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/milan_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/verona_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="3 - 1" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="04.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane9" onMouseClicked="#match9_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/lecce_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/bologna_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="2 - 3" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="04.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane10" onMouseClicked="#match10_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: #166587; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/atalanta_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="320.0" text="GIORNATA 38" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/seriea/monza_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="325.0" layoutY="50.0" prefHeight="28.0" prefWidth="110.0" text="5 - 2" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="123.0" prefHeight="35.0" prefWidth="179.0" text="04.06.2023 21:00" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

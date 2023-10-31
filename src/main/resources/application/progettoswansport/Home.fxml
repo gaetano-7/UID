@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BPane" focusTraversable="true" minHeight="725.0" minWidth="1450.0" prefHeight="725.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerHome">
+   <left>
+      <AnchorPane fx:id="Ancor" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="250.0" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <VBox alignment="BASELINE_CENTER" prefHeight="386.0" prefWidth="252.0" spacing="35.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <Label fx:id="lblCalcio" alignment="BASELINE_CENTER" graphicTextGap="25.0" onMouseClicked="#clickCalcio" onMouseEntered="#enteredCalcio" onMouseExited="#exitedCalcio" prefHeight="40.0" prefWidth="250.0" text="Calcio" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/calcio.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="lblBasket" alignment="BASELINE_CENTER" graphicTextGap="15.0" onMouseClicked="#clickBasket" onMouseEntered="#enteredBasket" onMouseExited="#exitedBasket" prefHeight="40.0" prefWidth="250.0" text=" Basket" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/basketball.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="lblTennis" alignment="BASELINE_CENTER" graphicTextGap="15.0" onMouseClicked="#clickTennis" onMouseEntered="#enteredTennis" onMouseExited="#exitedTennis" prefHeight="40.0" prefWidth="250.0" text=" Tennis" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/tennis.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="lblMMA" alignment="BASELINE_CENTER" graphicTextGap="30.0" onMouseClicked="#clickMMA" onMouseEntered="#enteredMMA" onMouseExited="#exitedMMA" prefHeight="40.0" prefWidth="250.0" text="MMA" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/glove.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="lblMotori" alignment="BASELINE_CENTER" graphicTextGap="12.0" onMouseClicked="#clickMotori" onMouseEntered="#enteredMotori" onMouseExited="#exitedMotori" prefHeight="40.0" prefWidth="250.0" text=" Motori" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icone/f1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow height="25.0" radius="12.0" width="25.0">
+                     <color>
+                        <Color red="0.0313725508749485" green="0.2823529541492462" blue="0.25882354378700256" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </VBox>
+            <ImageView fx:id="logoSwan" fitHeight="200.0" fitWidth="250.0" onMouseClicked="#clickSwan" onMouseEntered="#enteredSwan" onMouseExited="#exitedSwan" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@images/icone/logo_total_white.png" />
+               </image>
+               <effect>
+                  <DropShadow height="25.0" radius="12.0" width="25.0">
+                     <color>
+                        <Color red="0.0313725508749485" green="0.2823529541492462" blue="0.25882354378700256" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </ImageView>
+            <Label fx:id="settings" graphicTextGap="8.0" layoutX="14.0" layoutY="677.0" onMouseClicked="#clickSettings" onMouseEntered="#enteredSettings" onMouseExited="#exitedSettings" text="Impostazioni" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="7.5" AnchorPane.leftAnchor="7.5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icone/settings.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="-1.0" hue="0.07" saturation="0.02" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </AnchorPane>
+   </left>
+</BorderPane>

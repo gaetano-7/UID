@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1150.0" style="-fx-background-color: linear-gradient(to bottom,#b8b8b8,#1f1e1e);" stylesheets="@css/styleMotoGp.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerMotoGp">
+   <top>
+      <AnchorPane prefHeight="260.0" prefWidth="1150.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="40.0" layoutY="60.0" prefHeight="200.0" prefWidth="780.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="14.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/motori/logo_motogp.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" graphicTextGap="0.0" layoutX="249.0" layoutY="23.0" text="MOTOGP 2022/2023" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="214.0" layoutY="131.0" prefHeight="50.0" prefWidth="700.0">
+                     <children>
+                        <JFXButton fx:id="classificaButton" onAction="#clickClassifica" prefHeight="50.0" prefWidth="145.0" text="CLASSIFICA">
+                           <font>
+                              <Font name="System Bold Italic" size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="pilotiButton" layoutX="10.0" layoutY="10.0" onAction="#clickPiloti" prefHeight="50.0" prefWidth="145.0" text="PILOTI">
+                           <font>
+                              <Font name="System Bold Italic" size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="costruttoriButton" layoutX="10.0" layoutY="10.0" onAction="#clickCostruttori" prefHeight="50.0" prefWidth="177.0" text="COSTRUTTORI">
+                           <font>
+                              <Font name="System Bold Italic" size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="newsButton" layoutX="301.0" layoutY="10.0" onAction="#clickNews" prefHeight="50.0" prefWidth="145.0" text="NEWS">
+                           <font>
+                              <Font name="System Bold Italic" size="20.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane fx:id="APane" prefHeight="450.0" prefWidth="1150.0" BorderPane.alignment="CENTER" />
+   </center>
+   <effect>
+      <InnerShadow>
+         <color>
+            <Color red="0.28421053290367126" green="0.28421053290367126" blue="0.28421053290367126" />
+         </color>
+      </InnerShadow>
+   </effect>
+</BorderPane>

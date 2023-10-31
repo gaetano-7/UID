@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerTema">
+   <children>
+      <Label layoutX="33.0" layoutY="41.0" text="Selezionare il tema che preferisci per la home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXToggleButton contentDisplay="GRAPHIC_ONLY" layoutX="332.0" layoutY="106.0" onAction="#Base" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="selezione" />
+         </toggleGroup>
+      </JFXToggleButton>
+      <Label layoutX="201.0" layoutY="126.0" text="Base" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="201.0" layoutY="189.0" text="Scuro" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="201.0" layoutY="256.0" text="Personalizzato" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <JFXToggleButton contentDisplay="GRAPHIC_ONLY" layoutX="332.0" layoutY="169.0" onAction="#Scuro" toggleGroup="$selezione" />
+      <JFXToggleButton contentDisplay="GRAPHIC_ONLY" layoutX="332.0" layoutY="236.0" onAction="#Paradiso" toggleGroup="$selezione" />
+      <ColorPicker fx:id="ColorPicker" layoutX="479.0" layoutY="252.0">
+         <value>
+            <Color red="0.9276315569877625" green="0.5545390248298645" blue="0.032209429889917374" />
+         </value>
+      </ColorPicker>
+   </children>
+</AnchorPane>

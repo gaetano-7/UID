@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="525.0" prefWidth="1300.0" stylesheets="@css/styleTableChampions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerTabelloneChampions">
+   <children>
+      <ScrollPane prefHeight="400.0" prefWidth="1000.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="15.0">
+         <content>
+            <AnchorPane fx:id="anchor_background" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="700.0" prefWidth="1180.0">
+               <children>
+                  <VBox layoutX="14.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="157.0" prefWidth="160.0" spacing="15.0" AnchorPane.bottomAnchor="402.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+                     <children>
+                        <Pane fx:id="pane1" onMouseClicked="#match1_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/liverpool_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/real_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="42.0" layoutY="11.0" prefHeight="17.0" prefWidth="59.0" text="Liverpool" textFill="WHITE" />
+                              <Label layoutX="40.0" layoutY="40.0" prefHeight="17.0" prefWidth="71.0" style="-fx-font-weight: bold;" text="Real Madrid" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="2" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="5" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="1" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane2" onMouseClicked="#match2_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/borussia_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/chelsea_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" text="Dortmund" textFill="WHITE" />
+                              <Label layoutX="40.0" layoutY="40.0" prefHeight="17.0" prefWidth="48.0" style="-fx-font-weight: bold;" text="Chelsea" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="2" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="15.0" layoutY="190.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="172.0" prefWidth="160.0" spacing="15.0" AnchorPane.leftAnchor="15.0">
+                     <children>
+                        <Pane fx:id="pane3" onMouseClicked="#match3_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/rb_lipsia_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/man_city_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" text="RB Lipsia" textFill="WHITE" />
+                              <Label layoutX="40.0" layoutY="35.0" prefHeight="25.0" prefWidth="71.0" style="-fx-font-weight: bold;" text="Manchester City" textFill="WHITE">
+                                 <font>
+                                    <Font size="9.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="1" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="7" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane4" onMouseClicked="#match4_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/psg_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/bayern_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="46.0" layoutY="11.0" prefHeight="17.0" prefWidth="44.0" text="Paris SG" textFill="WHITE" />
+                              <Label layoutX="44.0" layoutY="40.0" prefHeight="17.0" prefWidth="44.0" style="-fx-font-weight: bold;" text="Bayern" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="1" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="2" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="15.0" layoutY="362.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="193.0" prefWidth="160.0" spacing="15.0" AnchorPane.leftAnchor="15.0">
+                     <children>
+                        <Pane fx:id="pane5" onMouseClicked="#match5_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/milan_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/totthenam_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="42.0" layoutY="11.0" prefHeight="17.0" prefWidth="41.0" style="-fx-font-weight: bold;" text="Milan" textFill="WHITE" />
+                              <Label layoutX="42.0" layoutY="40.0" prefHeight="17.0" prefWidth="61.0" text="Tottenham" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="0" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane6" onMouseClicked="#match6_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/francoforte_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/napoli_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" text="Francoforte" textFill="WHITE" />
+                              <Label layoutX="43.0" layoutY="40.0" prefHeight="17.0" prefWidth="44.0" style="-fx-font-weight: bold;" text="Napoli" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="2" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="3" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="15.0" layoutY="534.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="193.0" prefWidth="160.0" spacing="15.0" AnchorPane.leftAnchor="15.0">
+                     <children>
+                        <Pane fx:id="pane7" onMouseClicked="#match7_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/club_brugge_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/benfica_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" text="Club Brugge" textFill="WHITE" />
+                              <Label layoutX="42.0" layoutY="40.0" prefHeight="17.0" prefWidth="54.0" style="-fx-font-weight: bold;" text="Benfica" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="2" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="5" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane8" onMouseClicked="#match8_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/inter_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/porto_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" style="-fx-font-weight: bold;" text="Inter" textFill="WHITE" />
+                              <Label layoutX="36.0" layoutY="40.0" prefHeight="17.0" prefWidth="31.0" text="Porto" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="0" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="198.0" layoutY="59.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="160.0" spacing="102.0">
+                     <children>
+                        <Pane fx:id="pane9" onMouseClicked="#match9_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/real_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/chelsea_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" style="-fx-font-weight: bold;" text="Real Madrid" textFill="WHITE" />
+                              <Label layoutX="41.0" layoutY="40.0" prefHeight="17.0" prefWidth="44.0" text="Chelsea" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="2" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="2" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="0" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane10" onMouseClicked="#match10_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/man_city_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/bayern_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="38.0" layoutY="11.0" prefHeight="20.0" prefWidth="71.0" style="-fx-font-weight: bold;" text="Manchester City" textFill="WHITE">
+                                 <font>
+                                    <Font size="9.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="38.0" layoutY="40.0" text="Bayern" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="3" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="1" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="198.0" layoutY="403.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="160.0" spacing="102.0">
+                     <children>
+                        <Pane fx:id="pane11" onMouseClicked="#match11_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/milan_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/napoli_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="42.0" layoutY="11.0" prefHeight="17.0" prefWidth="38.0" style="-fx-font-weight: bold;" text="Milan" textFill="WHITE" />
+                              <Label layoutX="42.0" layoutY="40.0" prefHeight="17.0" prefWidth="41.0" text="Napoli" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="1" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane12" onMouseClicked="#match12_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/benfica_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/inter_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" prefHeight="17.0" prefWidth="38.0" text="Benfica" textFill="WHITE" />
+                              <Label layoutX="44.0" layoutY="40.0" prefHeight="17.0" prefWidth="31.0" style="-fx-font-weight: bold;" text="Inter" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="2" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="3" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="3" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="392.0" layoutY="153.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="160.0" spacing="265.0">
+                     <children>
+                        <Pane fx:id="pane13" onMouseClicked="#match13_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/real_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/man_city_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" text="Real Madrid" textFill="WHITE" />
+                              <Label layoutX="41.0" layoutY="35.0" prefHeight="25.0" prefWidth="73.0" style="-fx-font-weight: bold;" text="Manchester City" textFill="WHITE">
+                                 <font>
+                                    <Font size="9.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="1" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="4" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane14" onMouseClicked="#match14_click" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/milan_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/calcio/champions/inter_logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="41.0" layoutY="11.0" text="Milan" textFill="WHITE" />
+                              <Label layoutX="44.0" layoutY="40.0" prefHeight="17.0" prefWidth="31.0" style="-fx-font-weight: bold;" text="Inter" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="114.0" layoutY="39.0" text="2" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="12.0" prefHeight="13.0" prefWidth="5.0" text="0" textFill="WHITE" />
+                              <Label layoutX="135.0" layoutY="39.0" text="1" textFill="WHITE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <Line endX="-115.0" layoutX="300.0" layoutY="50.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="300.0" layoutY="136.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="300.0" layoutY="224.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="300.0" layoutY="311.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="300.0" layoutY="398.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="300.0" layoutY="485.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="300.0" layoutY="569.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-115.0" endY="-0.89288330078125" layoutX="300.0" layoutY="658.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-99.99996948242188" endY="86.39999389648438" layoutX="285.0" layoutY="51.0" startX="-100.0" stroke="WHITE" />
+                  <Line endX="-99.99996948242188" endY="86.39999389648438" layoutX="285.0" layoutY="224.0" startX="-100.0" stroke="WHITE" />
+                  <Line endX="-99.99996948242188" endY="86.39999389648438" layoutX="285.0" layoutY="399.0" startX="-100.0" stroke="WHITE" />
+                  <Line endX="-99.99996948242188" endY="86.39999389648438" layoutX="285.0" layoutY="570.0" startX="-100.0" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="324.0" layoutY="442.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="324.0" layoutY="267.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="324.0" layoutY="93.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="324.0" layoutY="612.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="484.0" layoutY="94.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="496.0" layoutY="267.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="496.0" layoutY="441.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-125.99996948242188" endY="0.20001220703125" layoutX="496.0" layoutY="611.0" startX="-138.99996948242188" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-99.49996948242188" endY="170.70001220703125" layoutX="470.0" layoutY="441.0" startX="-100.0" stroke="WHITE" />
+                  <Line endX="-99.49996948242188" endY="174.70001220703125" layoutX="470.0" layoutY="93.0" startX="-100.49996948242188" startY="1.0" stroke="WHITE" />
+                  <Line endX="-115.99996948242188" endY="0.20001220703125" layoutX="507.0" layoutY="189.0" startX="-135.79287719726562" startY="0.20001220703125" stroke="WHITE" />
+                  <Line endX="-108.99996948242188" endY="-0.64996337890625" layoutX="500.0" layoutY="527.0" startX="-129.74996948242188" startY="-0.64996337890625" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="677.0" layoutY="188.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-99.5" endY="337.5" layoutX="662.0" layoutY="188.0" startX="-100.49996948242188" startY="1.0" stroke="WHITE" />
+                  <Line endX="-115.0" layoutX="677.0" layoutY="525.0" startX="-125.0" stroke="WHITE" />
+                  <Line endX="-119.0" endY="0.20001220703125" layoutX="694.0" layoutY="353.0" startX="-130.79290771484375" startY="0.20001220703125" stroke="WHITE" />
+                  <Pane fx:id="pane15" layoutX="573.0" layoutY="317.0" onMouseClicked="#match15_click" prefHeight="70.0" prefWidth="160.0" style="-fx-background-color: #3562A6; -fx-background-radius: 20;" AnchorPane.leftAnchor="575.0">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/champions/man_city_logo.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/calcio/champions/inter_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="41.0" layoutY="11.0" prefHeight="18.0" prefWidth="71.0" style="-fx-font-weight: bold;" text="Manchester City" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="40.0" prefHeight="17.0" prefWidth="38.0" text="Inter" textFill="WHITE" />
+                        <Label layoutX="130.0" layoutY="11.0" prefHeight="13.0" prefWidth="5.0" text="1" textFill="WHITE" />
+                        <Label layoutX="130.0" layoutY="40.0" text="0" textFill="WHITE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerLogo">
+   <children>
+      <Label layoutX="69.0" layoutY="59.0" text="Seleziona il logo che preferisci" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="80.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icone/logo_bianco.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="280.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icone/logo_nero.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="480.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icone/logo_total_white.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <JFXToggleButton contentDisplay="GRAPHIC_ONLY" layoutX="115.0" layoutY="240.0" onAction="#LogoScrittaBianca">
+         <toggleGroup>
+            <ToggleGroup fx:id="A" />
+         </toggleGroup>
+      </JFXToggleButton>
+      <JFXToggleButton contentDisplay="GRAPHIC_ONLY" layoutX="315.0" layoutY="240.0" onAction="#LogoScrittaNera" toggleGroup="$A" />
+      <JFXToggleButton contentDisplay="GRAPHIC_ONLY" layoutX="515.0" layoutY="240.0" onAction="#LogoB" selected="true" toggleGroup="$A" />
+   </children>
+</AnchorPane>

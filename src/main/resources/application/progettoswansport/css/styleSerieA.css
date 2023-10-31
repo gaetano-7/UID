@@ -1,0 +1,117 @@
+.anchor-pane {
+    -fx-background-color: transparent;
+}
+
+.table-column{
+    -fx-alignment: center;
+}
+
+.table-view {
+    -fx-control-inner-background: transparent;
+    -fx-background-image: url('/application/progettoswansport/images/calcio/champions/background_seriea.png');
+    -fx-shape: "M0 5 L0 95 Q0 100 5 100 L95 100 Q100 100 100 95 L100 5 Q100 0 95 0 L5 0 Q0 0 0 5Z";
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-text-background-color: white;
+    -fx-padding: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #166587;
+    -fx-background-radius: 30px;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-radius: 30px;
+    -fx-text-background-color: white;
+}
+.table-view .column-header .label {
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+    -fx-text-background-color: white;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+}
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-border-color: white;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-background-color: #072f6e;
+    -fx-text-background-color: white;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 0.0 10.0 0.0;
+
+}
+
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+   -fx-background-color: transparent;
+   -fx-background-insets: 0;
+   -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0.15em 0.0;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0.0 0.15em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color : #166587;
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color : #166587;
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar{
+   -fx-background-color: transparent;
+   -fx-background-radius: 2em;
+   -fx-focus-color: transparent;
+   -fx-faint-focus-color: transparent;
+}
+
+.scroll-bar:vertical:focused {
+   -fx-background-color: transparent;
+}
+
+.corner {
+    -fx-background-color: transparent;
+}
+
+
+

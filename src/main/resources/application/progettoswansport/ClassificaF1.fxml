@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerClassificaF1">
+   <children>
+      <TableView fx:id="classF1" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="15.0">
+         <columns>
+            <TableColumn fx:id="colPos" minWidth="70.0" prefWidth="140.0" text="POS." />
+            <TableColumn fx:id="colNaz" minWidth="70.0" prefWidth="150.0" text="NAZIONE" />
+            <TableColumn fx:id="colScuderia" minWidth="150.0" prefWidth="300.0" text="SCUDERIA" />
+            <TableColumn fx:id="colPilota" minWidth="150.0" prefWidth="300.0" text="PILOTA" />
+            <TableColumn fx:id="colPodi" minWidth="70.0" prefWidth="150.0" text="PODI" />
+            <TableColumn fx:id="colPunti" minWidth="70.0" prefWidth="150.0" text="PUNTI" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

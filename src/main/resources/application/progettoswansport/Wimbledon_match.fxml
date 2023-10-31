@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerWimbledonMatch">
+   <children>
+      <AnchorPane layoutX="204.0" layoutY="10.0" prefHeight="420.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to bottom, #6824c7,#2c0952); -fx-background-radius: 30;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutX="151.0" prefHeight="154.0" prefWidth="449.0">
+               <children>
+                  <Pane prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #074f2c;">
+                     <children>
+                        <ImageView fx:id="wtennista1" fitHeight="150.0" fitWidth="150.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Tennisti/Djokovic.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label fx:id="set_1" prefHeight="50.0" prefWidth="54.0" text="3" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="5.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label text=":" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets top="50.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="set_2" prefHeight="50.0" prefWidth="29.0" text="2" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="40.0" top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Pane prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #074f2c;">
+                     <children>
+                        <ImageView fx:id="wtennista2" fitHeight="150.0" fitWidth="150.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tennis/Tennisti/Sinner.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <VBox layoutY="160.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="160.0">
+               <children>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wace1" prefHeight="30.4" prefWidth="21.6" text="8" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="225.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="170.0" text="Ace" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wace2" text="8" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wdp1" prefHeight="30.4" prefWidth="21.6" text="5" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="225.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="170.0" text="Doppi falli" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wdp2" text="7" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wcp1" prefHeight="30.4" prefWidth="21.6" text="41" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="225.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="170.0" text="Colpi vincenti" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wcp2" text="43" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wpm1" prefHeight="30.4" prefWidth="21.6" text="9" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="225.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="170.0" text="Punti Max di Fila" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wpm2" text="8" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wpr1" text="72%" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="216.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="170.0" text="Punti a rete vinti" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="45.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wpr2" text="63%" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="45.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wpvs1" prefHeight="30.4" prefWidth="38.4" text="69%" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="216.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="188.0" text="Punti vinti di servizio" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wpvs2" text="60%" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="22.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="750.0">
+                     <children>
+                        <Label fx:id="wpvr1" prefHeight="30.4" prefWidth="38.4" text="40%" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="216.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="193.0" text="Punti vinti di risposta" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="wpvr2" text="31%" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="17.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

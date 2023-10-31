@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerClassificaSerieA">
+   <children>
+      <TableView fx:id="classifica" layoutX="19.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" stylesheets="@css/styleSerieA.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
+         <columns>
+            <TableColumn fx:id="colonnaPos" minWidth="40.0" prefWidth="160.0" text="POS." />
+            <TableColumn fx:id="colonnaSquadra" editable="false" minWidth="125.0" prefWidth="330.0" resizable="false" sortable="false" text="SQUADRA" />
+            <TableColumn fx:id="colonnaPG" editable="false" minWidth="50.0" prefWidth="135.0" resizable="false" sortable="false" text="PG" />
+            <TableColumn fx:id="colonnaV" editable="false" minWidth="50.0" prefWidth="135.0" resizable="false" sortable="false" text="V" />
+            <TableColumn fx:id="colonnaN" editable="false" minWidth="50.0" prefWidth="135.0" resizable="false" sortable="false" text="N" />
+            <TableColumn fx:id="colonnaP" editable="false" minWidth="50.0" prefWidth="130.0" resizable="false" sortable="false" text="P" />
+            <TableColumn fx:id="colonnaPNT" editable="false" minWidth="50.0" prefWidth="135.0" resizable="false" sortable="false" text="PNT" />
+         </columns>
+      </TableView>
+   </children>
+   <stylesheets>
+      <URL value="@css/styleSerieA.css" />
+      <URL value="@css/styleScroll.css" />
+   </stylesheets>
+</AnchorPane>

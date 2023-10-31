@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1300.0" stylesheets="@css/styleRisultatiSerieA.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerRisultatiNba">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="1418.0" prefWidth="1220.0" style="-fx-border-color: transparent; -fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0">
+         <content>
+            <VBox fx:id="matches" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="1200.0" spacing="20.0">
+               <children>
+                  <Pane fx:id="Rock_Griz" onMouseClicked="#Hou_Mem_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Houston.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="245.0" layoutY="9.0" prefHeight="39.0" prefWidth="271.0" text="ROCKETS - GRIZZLIES" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Memphis.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="99 - 113" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Mavs_Lake" onMouseClicked="#Dal_Lak_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Dallas.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="267.0" layoutY="8.0" prefHeight="39.0" prefWidth="197.0" text="MAVS - LAKERS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Lakers.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="108 - 111" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Spurs_Jazz" onMouseClicked="#Spu_Jaz_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Spurs.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="286.0" layoutY="9.0" prefHeight="39.0" prefWidth="169.0" text="SPURS - JAZZ" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Utah.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="117 - 128" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Nugg_Heat" onMouseClicked="#Den_Mia_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Denver.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="265.0" layoutY="8.0" prefHeight="39.0" prefWidth="217.0" text="NUGGETS - HEAT" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Miami.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="104 - 93" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Peli_Blaze" onMouseClicked="#Nop_Bla_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Pelicans.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="256.0" layoutY="8.0" prefHeight="39.0" prefWidth="259.0" text="PELICANS - BLAZERS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="542.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Portland.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="127 - 110" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Warr_Thun" onMouseClicked="#War_Thu_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Warriors.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="238.0" layoutY="7.0" prefHeight="39.0" prefWidth="286.0" text="WARRIORS - THUNDER" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="204.0" layoutX="500.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreovest/Thunder.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="136 - 125" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Buck_Pist" onMouseClicked="#Mil_Det_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="103.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Bucks.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="265.0" layoutY="8.0" prefHeight="39.0" prefWidth="217.0" text="BUCKS - PISTONS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Pistons.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="116 - 91" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Celt_Horn" onMouseClicked="#Bos_Cha_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Boston.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="257.0" layoutY="8.0" prefHeight="39.0" prefWidth="249.0" text="CELTICS - HORNETS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Hornets.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="127 - 116" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Bulls_76ers" onMouseClicked="#Chi_Phi_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Chicago.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="277.0" layoutY="5.0" prefHeight="39.0" prefWidth="179.0" text="BULLS - 76ERS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Phila.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="91 - 116" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="Rapt_Nets" onMouseClicked="#Tor_Bro_click" prefHeight="170.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, blue, #ba0707); -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="76.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Raptors.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="269.0" layoutY="6.0" prefHeight="39.0" prefWidth="210.0" text="RAPTORS - NETS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/nba/Squadreest/Nets.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="261.0" layoutY="62.0" prefHeight="73.0" prefWidth="212.0" text="116 - 119" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="220.0" />
+                     </VBox.margin>
+                  </Pane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

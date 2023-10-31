@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="660.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerAnchorHome">
+   <children>
+      <HBox alignment="CENTER" layoutX="50.0" layoutY="240.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="750.0" spacing="50.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="240.0">
+         <children>
+            <ImageView fx:id="ImgChamp" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#ImgChampclick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/champions_match.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="matchChamp2" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#ImgChamp2click" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/milnap_match.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="matchTennis" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#ImgRolandClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/tennis_match.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="50.0" layoutY="415.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="750.0" spacing="50.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+         <children>
+            <ImageView fx:id="imgWimble" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#ImgWimbleClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/wimbledon_match.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="matchF1" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#imgF1click" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/f1_match.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="matchMotogp" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#ImgGpClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/motogp_match.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="50.0" layoutY="46.0" prefHeight="180.0" prefWidth="750.0" spacing="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="65.0">
+         <children>
+            <ImageView fx:id="imgNba" fitHeight="146.0" fitWidth="277.0" onMouseClicked="#ImgNbaClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/denvmia_match.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="matchCalcio" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#imgSerieAclick" pickOnBounds="true" preserveRatio="true" styleClass="-fx-effect: dropshadow(gaussian, yellow, 10, 1.0, 0, 0);">
+               <image>
+                  <Image url="@images/match/seriea_match.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="matchNba2" fitHeight="270.0" fitWidth="270.0" onMouseClicked="#imgNba2Click" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/match/nba_match.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label layoutX="488.0" layoutY="18.0" text="IN EVIDENZA" textFill="WHITE" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow>
+         <color>
+            <Color red="0.0235294122248888" green="0.2823529541492462" blue="0.23529411852359772" />
+         </color>
+      </InnerShadow>
+   </effect>
+</AnchorPane>

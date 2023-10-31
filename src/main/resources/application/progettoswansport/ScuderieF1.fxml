@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerScuderieF1">
+   <children>
+      <TableView fx:id="tabellaScuderie" layoutX="33.0" layoutY="33.0" prefHeight="500.0" prefWidth="1300.0" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="15.0">
+        <columns>
+          <TableColumn fx:id="colonnaS" minWidth="150.0" prefWidth="275.0" text="SCUDERIA" />
+            <TableColumn fx:id="colonnaT" minWidth="125.0" prefWidth="250.0" text="TEAM PRINCIPAL" />
+          <TableColumn fx:id="colonnaM" minWidth="75.0" prefWidth="150.0" text="MONOPOSTO" />
+            <TableColumn fx:id="colonnaP1" minWidth="80.0" prefWidth="170.0" text="PILOTA 1" />
+            <TableColumn fx:id="colonnaP2" minWidth="80.0" prefWidth="170.0" text="PILOTA 2" />
+            <TableColumn fx:id="colonnaP3" minWidth="80.0" prefWidth="170.0" text="PILOTA RISERVA" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

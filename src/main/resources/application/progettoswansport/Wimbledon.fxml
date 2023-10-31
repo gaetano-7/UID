@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1150.0" style="-fx-background-color: linear-gradient(to bottom,#ffffff,#4f0c9c);" stylesheets="@css/styleTennisWallp.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerWimbledon">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="1150.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="174.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to bottom, #6824c7,#2c0952); -fx-background-radius: 30;" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="30.0">
+               <children>
+                  <ImageView fx:id="Logo_Wimbledon" fitHeight="143.0" fitWidth="139.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/tennis/wimbledon.png" />
+                     </image>
+                  </ImageView>
+                  <HBox layoutX="233.0" layoutY="130.0" prefHeight="44.0" prefWidth="284.0">
+                     <children>
+                        <JFXButton fx:id="Tabellone" onMouseClicked="#tabellone_click" prefHeight="40.0" prefWidth="140.0" text="TABELLONE" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="Risultati" onMouseClicked="#risultati_click" prefHeight="40.0" prefWidth="140.0" text="RISULTATI" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <Label fx:id="scritta_Wimbledon" layoutX="159.0" layoutY="23.0" prefHeight="44.0" prefWidth="154.0" text="Wimbledon 2022" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane fx:id="APane" prefHeight="420.0" prefWidth="1150.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <effect>
+      <InnerShadow>
+         <color>
+            <Color red="0.20376868546009064" green="0.021832358092069626" blue="0.2947368323802948" />
+         </color>
+      </InnerShadow>
+   </effect>
+</BorderPane>

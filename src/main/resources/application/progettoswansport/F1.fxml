@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1150.0" style="-fx-background-color: linear-gradient(to bottom, #9c0505,#000000);;" stylesheets="@css/styleFormula1.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerF1">
+   <top>
+      <AnchorPane fx:id="APAneUP" prefHeight="260.0" prefWidth="1150.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="40.0" layoutY="60.0" prefHeight="200.0" prefWidth="780.0" style="-fx-background-color: black; -fx-background-radius: 10;" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <ImageView fitHeight="170.0" fitWidth="200.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/campionati/f1.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" layoutX="185.0" layoutY="15.0" prefHeight="50.0" prefWidth="225.0" text="F1 2022/2023" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" layoutX="185.0" layoutY="130.0" prefHeight="55.0" prefWidth="500.0" spacing="15.0">
+                     <children>
+                        <JFXButton fx:id="classificaButton" alignment="CENTER" onAction="#clickClassifica" text="CLASSIFICA" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="pilotiButton" alignment="CENTER" onAction="#clickPiloti" text="PILOTI" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="newsButton" alignment="CENTER" onAction="#clickNews" text="NEWS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="scuderieButton" alignment="CENTER" onAction="#clickScuderie" text="SCUDERIE" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane fx:id="DownAPane" prefHeight="450.0" prefWidth="1150.0" BorderPane.alignment="CENTER" />
+   </center>
+   <effect>
+      <InnerShadow />
+   </effect>
+</BorderPane>

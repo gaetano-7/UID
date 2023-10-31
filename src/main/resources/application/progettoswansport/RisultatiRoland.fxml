@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background_roland" prefHeight="550.0" prefWidth="1150.0" stylesheets="@css/styleRisultatiSerieA.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerRisultatiRoland">
+   <children>
+      <ScrollPane fx:id="ScrollPaneR" fitToWidth="true" layoutX="23.0" prefHeight="531.0" prefWidth="1070.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0">
+         <content>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="656.0" prefWidth="1051.0" spacing="20.0">
+               <children>
+                  <Pane maxWidth="-Infinity" prefHeight="291.0" prefWidth="650.0" style="-fx-background-color: #c24d0a; -fx-background-radius: 30;">
+                     <VBox.margin>
+                        <Insets left="250.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label layoutX="264.0" prefHeight="28.0" prefWidth="154.0" style="-fx-background-color: #074f2c;" text="QUARTI DI FINALE" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <HBox fx:id="Djo_Nad" layoutY="40.0" onMouseClicked="#Djo_Nad_click" prefHeight="58.0" prefWidth="641.0">
+                           <children>
+                              <ImageView fitHeight="52.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Serbia.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="12.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="204.0" text="DKOJOVIC" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="1" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="3" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="NADAL" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="52.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Spagna.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="2.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="Zve_Alc" layoutY="100.0" onMouseClicked="#Zve_Alc_click" prefHeight="58.0" prefWidth="641.0">
+                           <children>
+                              <ImageView fitHeight="31.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Germania.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="15.0" top="12.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="204.0" text="ZVEREV" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="12.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="3" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="62.0" top="10.0" />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets left="7.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="38.0" text="1" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="15.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="ALCARAZ" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="52.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Spagna.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets left="14.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="Ruu_Run" layoutX="10.0" layoutY="159.0" onMouseClicked="#Ruu_Run_click" prefHeight="58.0" prefWidth="630.0">
+                           <children>
+                              <ImageView fitHeight="58.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Norvegia.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="204.0" text="RUUD" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="5.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="3" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="70.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="38.0" text="1" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="7.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="RUNE" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="49.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Danimarca.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="17.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="Rub_Cil" layoutY="220.0" onMouseClicked="#Rub_Cil_click" prefHeight="58.0" prefWidth="639.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Russia.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets left="15.0" top="12.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="204.0" text="RUBLEV" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="2" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="70.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="33.0" text="3" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="CILIC" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Croazia.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets left="17.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </Pane>
+                  <Pane maxWidth="-Infinity" prefHeight="170.0" prefWidth="650.0" style="-fx-background-color: #c24d0a; -fx-background-radius: 30;">
+                     <VBox.margin>
+                        <Insets left="250.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label layoutX="289.0" prefHeight="27.0" prefWidth="98.0" style="-fx-background-color: #074f2c;" text="SEMIFINALI" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <HBox fx:id="Nad_Zve" layoutY="40.0" onMouseClicked="#Nad_Zve_click" prefHeight="58.0" prefWidth="637.0">
+                           <children>
+                              <ImageView fitHeight="52.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Spagna.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="3.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="204.0" text="NADAL" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="1" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="0" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="ZVEREV" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="39.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Germania.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets left="14.0" top="12.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="Ruu_Cil" layoutX="8.0" layoutY="100.0" onMouseClicked="#Ruu_Cil_click" prefHeight="60.0" prefWidth="628.0">
+                           <children>
+                              <ImageView fitHeight="58.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Norvegia.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="198.0" text="RUUD" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="5.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="3" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="68.0" top="10.0" />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets left="7.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="38.0" text="1" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="15.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="CILIC" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Croazia.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets left="16.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </Pane>
+                  <Pane maxWidth="-Infinity" prefHeight="100.0" prefWidth="650.0" style="-fx-background-color: #c24d0a; -fx-background-radius: 30;">
+                     <VBox.margin>
+                        <Insets left="250.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label layoutX="310.0" layoutY="1.0" prefHeight="27.0" prefWidth="61.0" style="-fx-background-color: #074f2c;" text="FINALE" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <HBox fx:id="Nad_Ruu" layoutY="40.0" onMouseClicked="#Nad_Ruu_click" prefHeight="58.0" prefWidth="644.0">
+                           <children>
+                              <ImageView fitHeight="52.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Spagna.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="3.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="202.0" text="NADAL" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="3" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="65.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="43.0" text="0" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="204.0" text="RUUD" textFill="WHITE">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <ImageView fitHeight="58.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/tennis/Norvegia.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow height="5.0" radius="2.0" width="5.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

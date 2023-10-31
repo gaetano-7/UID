@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mmaAn2" maxHeight="1.7976931348623157E308" prefHeight="660.0" prefWidth="1150.0" stylesheets="@css/styleMMA.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ControllerIncontro">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="1150.0" spacing="180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="imgBack" fitHeight="50.0" fitWidth="56.0" onMouseClicked="#back_click" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/icone/FRECCIA2%20-Copia.png" />
+               </image>
+               <HBox.margin>
+                  <Insets top="25.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="lblWinF1" prefHeight="30.0" prefWidth="111.0" text="VINCITORE" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="lblWinF2" text="VINCITORE" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets left="290.0" top="50.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets right="200.0" />
+         </padding>
+      </HBox>
+      <VBox layoutX="3.0" layoutY="383.0" prefHeight="200.0" prefWidth="1147.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="953.0" spacing="180.0">
+               <children>
+                  <Label fx:id="lblColpiTF1" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="333" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Colpi Totali" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label fx:id="lblColpiTF2" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="2" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="180.0">
+               <children>
+                  <Label fx:id="lblColpiSF1" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="2" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Colpi Significativi" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label fx:id="lblColpiSF2" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="a" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="180.0">
+               <children>
+                  <Label fx:id="lblTestaF1" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Testa" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label fx:id="lblTestaF2" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="180.0">
+               <children>
+                  <Label fx:id="lblCorpoF1" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Corpo" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label fx:id="lblCorpoF2" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="180.0">
+               <children>
+                  <Label fx:id="lblGambeF1" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="a" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Gambe" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label fx:id="lblGambeF2" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="180.0">
+               <children>
+                  <Label fx:id="lblTakeF1" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="a" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Take Downs" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label fx:id="lblTakeF2" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="a" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </VBox>
+      <HBox layoutX="3.0" layoutY="109.0" prefHeight="100.0" prefWidth="1150.0" spacing="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fx:id="imgFighter1" fitHeight="260.0" fitWidth="250.0" onMouseClicked="#ImgF1" pickOnBounds="true" preserveRatio="true">
+               <image>
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="76.0" prefWidth="70.0" style="-fx-background-color: red; -fx-background-radius: 50;" text="VS">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label text="Win By" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lblRisultato" alignment="CENTER" prefHeight="30.0" prefWidth="102.0" text="fsdfs" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </VBox>
+            <ImageView fx:id="imgFighter2" fitHeight="260.0" fitWidth="250.0" onMouseClicked="#imgF2" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <image>
+                  <Image url="@images/Fighter/Adesanya.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets left="180.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>
